@@ -26,3 +26,9 @@
   background-color: #eceff1;
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  .social-link-group {
+    position: initial !important;
+  }
+}

@@ -8,3 +8,13 @@
   width: 10rem;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .view {
+    height: 50vh;
+  }
+
+  .joe-avatar {
+    width: 5rem;
+  }
+}
