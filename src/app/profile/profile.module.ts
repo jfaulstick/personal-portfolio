@@ -8,9 +8,10 @@ import { AboutComponent } from './about/about.component';
 import { SocialGroupComponent } from './social-group/social-group.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceCardComponent } from './experience-card/experience-card.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [ProfileComponent, HeaderComponent, IntroComponent, AboutComponent, SocialGroupComponent, ExperienceComponent, ExperienceCardComponent],
+  declarations: [ProfileComponent, HeaderComponent, IntroComponent, AboutComponent, SocialGroupComponent, ExperienceComponent, ExperienceCardComponent, SkillsComponent],
   imports: [
     CommonModule,
     MDBBootstrapModule.forRoot()
