@@ -10,6 +10,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceCardComponent } from './experience-card/experience-card.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProjectsComponent } from './projects/projects.component';
     ExperienceCardComponent,
     SkillsComponent,
     ProjectsComponent,
+    FooterComponent,
   ],
   imports: [CommonModule, MDBBootstrapModule.forRoot()],
 })

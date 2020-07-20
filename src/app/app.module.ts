@@ -20,7 +20,7 @@ const config: ExtraOptions = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
