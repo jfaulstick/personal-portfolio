@@ -1,3 +1,7 @@
+.mobile {
+  display: none;
+}
+
 .footer {
   background-color: hsl(0, 0%, 18%);
   margin-top: 4rem;
@@ -15,4 +19,14 @@
   color: white;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit;
+  }
 }
