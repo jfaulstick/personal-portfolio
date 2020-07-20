@@ -9,12 +9,20 @@ import { SocialGroupComponent } from './social-group/social-group.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceCardComponent } from './experience-card/experience-card.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
-  declarations: [ProfileComponent, HeaderComponent, IntroComponent, AboutComponent, SocialGroupComponent, ExperienceComponent, ExperienceCardComponent, SkillsComponent],
-  imports: [
-    CommonModule,
-    MDBBootstrapModule.forRoot()
-  ]
+  declarations: [
+    ProfileComponent,
+    HeaderComponent,
+    IntroComponent,
+    AboutComponent,
+    SocialGroupComponent,
+    ExperienceComponent,
+    ExperienceCardComponent,
+    SkillsComponent,
+    ProjectsComponent,
+  ],
+  imports: [CommonModule, MDBBootstrapModule.forRoot()],
 })
-export class ProfileModule { }
+export class ProfileModule {}

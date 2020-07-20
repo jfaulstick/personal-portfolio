@@ -1,0 +1,15 @@
+.project-cards-container {
+  padding-bottom: 2rem;
+}
+
+.project-card {
+  width: 22rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-card {
+    width: auto;
+    margin-top: 2rem;
+  }
+}
