@@ -28,7 +28,11 @@
               {{ project.text }}
             </mdb-card-text>
 
-            <div class='d-flex justify-content-between'>
+            <div class='d-flex justify-content-center'>
+              <mdb-badge *ngFor='let tech of project.technologies' class='project-technology' info="true">{{tech}}</mdb-badge>
+            </div>
+
+            <div class='d-flex justify-content-between project-links'>
               <a
               *ngIf="project.linkGithub"
               href="{{ project.linkGithub }}"
